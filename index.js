@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get('/badge/:data', (req, res) => {
     // Splits "label-message" from URL
-    const [label, message] = req.params.data.split('-');
+    const [label, ...messageParts] = req.params.data.split('-');
 
     const svg = makeBadge({
         label: label || 'const',

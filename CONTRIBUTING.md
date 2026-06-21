@@ -1,6 +1,7 @@
 ## How to Contribute
 > Thank you for Contributing to Const Badges! Our motto in JS Format is;
 >> ```javascript
+>> // new change
 >> const badges = require('life');
 >> ```
 ## Step One

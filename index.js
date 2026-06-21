@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.get('/badge/:data', (req, res) => {
+app.get('/badge/:data/:logo?', (req, res) => {
     // Splits "label-message" from URL
     const [label, ...messageParts] = req.params.data.split('-');
 

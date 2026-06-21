@@ -1,9 +1,7 @@
 ## How to Contribute
 > Thank you for Contributing to Const Badges! Our motto in JS Format is;
 >> ```javascript
->> // return this, is useless ↓
->> const life = "const-badges";
->> console.log(life)
+>> const badges = require('life');
 >> ```
 ## Step One
 So, you have worked in GitHub repositories, right? That's great! We need tools and strategies to minimize the risks associated with bot spams and virus-infested code that can infiltrate our projects. Ensuring the integrity of our code is essential, and we don’t want to compromise our work with malicious content. It's crucial to implement safeguards that can automatically detect and filter out problematic submissions. By doing so, we can maintain a healthier development environment and focus on what truly matters—creating efficient and effective software solutions without the looming threat of harmful code affecting our projects and productivity.
